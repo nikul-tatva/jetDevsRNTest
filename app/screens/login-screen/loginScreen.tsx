@@ -30,7 +30,6 @@ const LoginScreen = () => {
   }
 
   useEffect(() => {
-    console.log(" dimensions ", Dimensions.get('window').height, Dimensions.get('window').width)
     if (userEmail.length === 0) {
         setEmailError("")
     }
